@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: monospace;
+}
+#maintitle{
+	position: relative;
+	width: 90%;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+ #container{
+ 	width: 100%;
+ }
+ #menu1, #menu2, #menu3{
+ 	background-color: #F7F5DD;
+ }
+ @media (max-width: 767px){
+ 	.menu_c{
+ 		width: 100%;
+ 	}
+
+ 	#menu1, #menu2, #menu3{
+ 		width: 90%;
+ 		border: 1px solid black;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		margin-bottom: 15px;
+ 	}
+ }
+
+ .t1{
+ 	background-color: #ea907a;
+ }
+ .t2{
+ 	background-color: #127681;
+ }
+ .t3{
+ 	background-color: #fbc687;
+ }
+ h2{
+ 	float: right;
+ 	text-align: center;
+ 	font-size: 175%;
+ 	border: 1px black solid;
+ 	width: 150px;
+ 	margin-bottom: 5px;
+ }
+ p{
+ 	font-size: 125%;
+ 	width: 90%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	height: 150px;
+ 	overflow: auto;
+ }
+ @media (min-width: 768px) and (max-width: 991px){
+ 	.menu_1, .menu_2{
+ 		position: relative;
+ 		float: left;
+ 		width: 50%;
+ 	}
+ 	.menu_3{
+ 		position: relative;
+ 		float: left;
+ 		width: 100%;
+ 	}
+ 	#menu2{
+ 	        margin: 0 15px 0 15px;	
+ 	}
+ 	#menu1{
+ 		margin-left: 15px;
+ 	}
+ 	#menu3{
+ 		margin: 15px;
+ 	}
+ 	#menu1, #menu2, #menu3{
+ 		border: 1px solid black;
+ 	}
+
+ 	}
+ 	@media (min-width: 991px){
+ 		.menu_c{
+ 			position: relative;
+            float: left;
+            width: 33.33%;
+              }
+        #menu1, #menu2, #menu3{
+        	border: 1px solid black;
+        	margin-left: 15px;
+        }
+        #menu3{
+        	margin-right: 15px;
+        }
+ 	}
